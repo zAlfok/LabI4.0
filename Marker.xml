@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Marker_MPSSortingStation.Left" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSSortingStation.Top" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSSortingStation.Front" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSSortingStation.Back" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSSortingStation.Right" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSSortingStation.Bottom" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSDistributionConveyorStation.Left" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSDistributionConveyorStation.Top" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSDistributionConveyorStation.Front" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSDistributionConveyorStation.Back" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSDistributionConveyorStation.Right" size="60.000000 60.000000"/>
+        <ImageTarget name="Marker_MPSDistributionConveyorStation.Bottom" size="60.000000 60.000000"/>
+        <MultiTarget name="Marker_MPSSortingStation">
+            <Part name="Marker_MPSSortingStation.Left" translation="-30.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Marker_MPSSortingStation.Right" translation="30.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Marker_MPSSortingStation.Front" translation="0 0 30.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Marker_MPSSortingStation.Back" translation="0 0 -30.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Marker_MPSSortingStation.Top" translation="0 30.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Marker_MPSSortingStation.Bottom" translation="0 -30.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Marker_MPSDistributionConveyorStation">
+            <Part name="Marker_MPSDistributionConveyorStation.Left" translation="-30.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Marker_MPSDistributionConveyorStation.Right" translation="30.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Marker_MPSDistributionConveyorStation.Front" translation="0 0 30.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Marker_MPSDistributionConveyorStation.Back" translation="0 0 -30.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Marker_MPSDistributionConveyorStation.Top" translation="0 30.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Marker_MPSDistributionConveyorStation.Bottom" translation="0 -30.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
